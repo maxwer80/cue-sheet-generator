@@ -46,7 +46,14 @@
         "prefer_multi_shots": "false"
       },
       "generationId": "Ac9ssBLAs96wSCd4AzGFjJTptKNIZnsf2dIjG5fJz8c1CqBV87nGamgIVnbq_SLUUuFUcACa",
-      "creditsConsumed": 120
+      "creditsConsumed": 120,
+      "status": "COMPLETED",
+      "works": [
+        {
+          "url": "https://v15-kling.klingai.com/bs2/upload-ylab-stunt-sgp/7286396a-718f-45cf-9f71-6807b94dfb3f-nz0bAQiqccahvcd4qrViJg-output.mp4?x-kcdn-pid=112372",
+          "note": "URL expires 24h after generation"
+        }
+      ]
     }
   ]
 }

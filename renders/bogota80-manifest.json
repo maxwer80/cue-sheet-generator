@@ -3,8 +3,50 @@
   "format": "9:16, 30 s, 16mm film look, ambient audio only",
   "taskTraceId": "01a0e8bf-7ad4-7d4a-9499-41557cc046e9",
   "jobs": [
-    {"shot": "S1", "desc": "Séptima / Catedral Primada / Plaza de Bolívar", "step": "first-frame", "tool": "text_to_image", "model": "kling-image-v3_0_omni", "imageCount": "4", "generationId": "ARlP0MGf2q4mGIs6tWnmHk94p-QMrvIZTiOeT2nRieJ-JBSn9h7I2mf5mWUfOME9GRIo3-G8", "creditsConsumed": 8},
-    {"shot": "S2", "desc": "Séptima con Av. Jiménez / Edificio Avianca / San Francisco", "step": "first-frame", "tool": "text_to_image", "model": "kling-image-v3_0_omni", "imageCount": "4", "generationId": "AWUYFQK67GpGTDe1_HmUxSgwNWN_1RYsaaU2FegXPhCrf7qFcyhBmGZjKfF7HlSV37gNZdme", "creditsConsumed": 8},
-    {"shot": "S3", "desc": "Séptima al norte / Torre Colpatria / Monserrate", "step": "first-frame", "tool": "text_to_image", "model": "kling-image-v3_0_omni", "imageCount": "4", "generationId": "AboZFhsOZQPe22oecM_3d_4CkpCmxACHuvb599lHORnOmCpQnSO5R_EWdkRVeisL0v00zUcg", "creditsConsumed": 8}
+    {
+      "shot": "S1",
+      "desc": "Séptima / Catedral Primada / Plaza de Bolívar",
+      "step": "first-frame",
+      "tool": "text_to_image",
+      "model": "kling-image-v3_0_omni",
+      "imageCount": "4",
+      "generationId": "ARlP0MGf2q4mGIs6tWnmHk94p-QMrvIZTiOeT2nRieJ-JBSn9h7I2mf5mWUfOME9GRIo3-G8",
+      "creditsConsumed": 8
+    },
+    {
+      "shot": "S2",
+      "desc": "Séptima con Av. Jiménez / Edificio Avianca / San Francisco",
+      "step": "first-frame",
+      "tool": "text_to_image",
+      "model": "kling-image-v3_0_omni",
+      "imageCount": "4",
+      "generationId": "AWUYFQK67GpGTDe1_HmUxSgwNWN_1RYsaaU2FegXPhCrf7qFcyhBmGZjKfF7HlSV37gNZdme",
+      "creditsConsumed": 8
+    },
+    {
+      "shot": "S3",
+      "desc": "Séptima al norte / Torre Colpatria / Monserrate",
+      "step": "first-frame",
+      "tool": "text_to_image",
+      "model": "kling-image-v3_0_omni",
+      "imageCount": "4",
+      "generationId": "AboZFhsOZQPe22oecM_3d_4CkpCmxACHuvb599lHORnOmCpQnSO5R_EWdkRVeisL0v00zUcg",
+      "creditsConsumed": 8
+    },
+    {
+      "shot": "S2",
+      "step": "video-preview",
+      "source_image": "S2 option 1",
+      "tool": "image_to_video",
+      "model": "kling-video-v3_0",
+      "arguments": {
+        "duration": "10",
+        "resolution": "1080p",
+        "enable_audio": "true",
+        "prefer_multi_shots": "false"
+      },
+      "generationId": "Ac9ssBLAs96wSCd4AzGFjJTptKNIZnsf2dIjG5fJz8c1CqBV87nGamgIVnbq_SLUUuFUcACa",
+      "creditsConsumed": 120
+    }
   ]
 }

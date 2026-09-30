@@ -2,13 +2,89 @@
   "project": "juliane-koepcke-fb-reel",
   "format": "9:16, 60 s, voz en off El Faraón (ElevenLabs eleven_v4)",
   "voiceover": {
-    "tool": "ElevenLabs creative_generate_speech", "model": "eleven_v4",
+    "tool": "ElevenLabs creative_generate_speech",
+    "model": "eleven_v4",
     "voice": "El Faraon - Deep, Powerful and Peaceful (W1hAcdh0RNsPYUA7fkJh)",
     "flow": "https://elevenlabs.io/app/flows/uOTewodszRsa2YSlenNB",
-    "takes_secs": [63.04, 60.64, 61.2, 62.24], "chosen": "take 2 (60.64 s) -> voz-faraon-take2.mp3"
+    "takes_secs": [
+      63.04,
+      60.64,
+      61.2,
+      62.24
+    ],
+    "chosen": "take 2 (60.64 s) -> voz-faraon-take2.mp3"
   },
   "jobs": [
-    {"step": "character-portrait", "tool": "text_to_image", "model": "kling-image-v3_0_omni", "imageCount": "4",
-     "generationId": "AWP7RpIp8wcPeUiSXG2gShY4oHmLeNJFOLCrEJ6fulG-3NZhq1ab9qt29Mp2gxiG_kTlsI4z", "creditsConsumed": 8}
-  ]
+    {
+      "step": "character-portrait",
+      "tool": "text_to_image",
+      "model": "kling-image-v3_0_omni",
+      "imageCount": "4",
+      "generationId": "AWP7RpIp8wcPeUiSXG2gShY4oHmLeNJFOLCrEJ6fulG-3NZhq1ab9qt29Mp2gxiG_kTlsI4z",
+      "creditsConsumed": 8,
+      "chosen": "option 1 (blind: Kling CDN blocked in this environment)"
+    },
+    {
+      "shot": "S1",
+      "step": "first-frame",
+      "tool": "image_to_image",
+      "model": "kling-image-v3_0_omni",
+      "generationId": "AcFB5AMaJ4_ouDrKhipJtmPycczzWFenRMvSjR7Afk2WRdYRsC7SeaGFmZ-jHKRpK-HirGU1",
+      "creditsConsumed": 2
+    },
+    {
+      "shot": "S2",
+      "step": "first-frame",
+      "tool": "image_to_image",
+      "model": "kling-image-v3_0_omni",
+      "generationId": "Act1EctOxoAky8GAepK_1WLjzmlmH7mBZPJw7lTwDdCcW4f98opR8JOLoROA-orRTumTrcdD",
+      "creditsConsumed": 2
+    },
+    {
+      "shot": "S3",
+      "step": "first-frame",
+      "tool": "image_to_image",
+      "model": "kling-image-v3_0_omni",
+      "generationId": "ATlvt5ouE5e6DPAwJSpd6eDQAWdZnYVhIkG8S2fwZTd4CgX9RDSMRcOLvXRAtEMaAfcic2Mt",
+      "creditsConsumed": 2
+    },
+    {
+      "shot": "S4",
+      "step": "first-frame",
+      "tool": "image_to_image",
+      "model": "kling-image-v3_0_omni",
+      "generationId": "AekMTMxMAss8tceHcNhyPmK_ey4xcc6eqJYD9puJOBZ0fnkhYuIYMhXmqEL73wtOoP_tG7yo",
+      "creditsConsumed": 2
+    },
+    {
+      "shot": "S5",
+      "step": "first-frame",
+      "tool": "image_to_image",
+      "model": "kling-image-v3_0_omni",
+      "generationId": "AfdiC0kR0ZvHtZ-RAhk8ZW4AbSlIOdtc5xLOcar0gdC0-Sx7tDPUEBgF70bIr6BBrGcW7-C9",
+      "creditsConsumed": 2
+    },
+    {
+      "shot": "S6",
+      "step": "first-frame",
+      "tool": "image_to_image",
+      "model": "kling-image-v3_0_omni",
+      "generationId": "AYa49IHbpQ94IIM_fqieERqcezcucUqeKNHGRTZE6n3I9T9tAZsuJM9pyXQBVMt1FF35ccyC",
+      "creditsConsumed": 2
+    },
+    {
+      "shot": "S7",
+      "step": "video",
+      "tool": "text_to_video",
+      "model": "kling-video-v3_0_omni",
+      "arguments": {
+        "duration": "5",
+        "resolution": "1080p",
+        "enable_audio": "false"
+      },
+      "generationId": "AVrJcYU0_ba18VfjqEkUTrAXNAXExy5PJntfAX4oXuJcSblcpDhJxdM5SKl6boNAxx08cNrj",
+      "creditsConsumed": 40
+    }
+  ],
+  "taskTraceId": "01a0f4b2-3201-7ba9-93fa-61beab9ccd37"
 }

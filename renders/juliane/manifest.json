@@ -84,7 +84,80 @@
       },
       "generationId": "AVrJcYU0_ba18VfjqEkUTrAXNAXExy5PJntfAX4oXuJcSblcpDhJxdM5SKl6boNAxx08cNrj",
       "creditsConsumed": 40
+    },
+    {
+      "shot": "S1",
+      "step": "video",
+      "tool": "image_to_video",
+      "model": "kling-video-v3_0_turbo",
+      "arguments": {
+        "duration": "3",
+        "resolution": "1080p"
+      },
+      "generationId": "AVPLsCRUL_4oSrONuJ02J86fz9IrxGgrDLask7JAFCJ_qQtwasVZvDvEDfGTG2tmx2QEHpdo",
+      "creditsConsumed": 30
+    },
+    {
+      "shot": "S2",
+      "step": "video",
+      "tool": "image_to_video",
+      "model": "kling-video-v3_0_turbo",
+      "arguments": {
+        "duration": "9",
+        "resolution": "1080p"
+      },
+      "generationId": "AcpoNGuYMgnr9wyAU8lRcf11l7cIBkv3NMwsi_16sYhj5nnqmYOlFv785nKyLaws_wvTuzBg",
+      "creditsConsumed": 90
+    },
+    {
+      "shot": "S3",
+      "step": "video",
+      "tool": "image_to_video",
+      "model": "kling-video-v3_0_turbo",
+      "arguments": {
+        "duration": "10",
+        "resolution": "1080p"
+      },
+      "generationId": "AVEdFrqKzVH93BjcdXn4Wug01OVtNPbcFeVyVrm6m0sVx7ZJT7cITWm2b4a1bzyCSmZQ5s6n",
+      "creditsConsumed": 100
+    },
+    {
+      "shot": "S4",
+      "step": "video",
+      "tool": "image_to_video",
+      "model": "kling-video-v3_0_turbo",
+      "arguments": {
+        "duration": "13",
+        "resolution": "1080p"
+      },
+      "generationId": "AYHSztXzCbeXX5slroepcVXhu74A3esIXRCPtVTMe6wuKmNcuUmgl5mJNdEAgac2IiZHJqLt",
+      "creditsConsumed": 130
+    },
+    {
+      "shot": "S5",
+      "step": "video",
+      "tool": "image_to_video",
+      "model": "kling-video-v3_0_turbo",
+      "arguments": {
+        "duration": "12",
+        "resolution": "1080p"
+      },
+      "generationId": "ARIRB7NxmuvU_GwbY_UQk1haj90hKSqbJOOdaWblLHSLc9u19U4Pr0cLv9XC_H_xGY3CHoGo",
+      "creditsConsumed": 120
+    },
+    {
+      "shot": "S6",
+      "step": "video",
+      "tool": "image_to_video",
+      "model": "kling-video-v3_0_turbo",
+      "arguments": {
+        "duration": "8",
+        "resolution": "1080p"
+      },
+      "generationId": "AXz8gMozbalPEF93jkyV0OsmWO171kZOiiQjEMqU6U6vl2ir2RES6OfPT4Lv8Yf41DOP7Be3",
+      "creditsConsumed": 80
     }
   ],
-  "taskTraceId": "01a0f4b2-3201-7ba9-93fa-61beab9ccd37"
+  "taskTraceId": "01a0f4b2-3201-7ba9-93fa-61beab9ccd37",
+  "note": "turbo i2v billed 10 credits/s vs 8 for v3_0_omni t2v without audio"
 }

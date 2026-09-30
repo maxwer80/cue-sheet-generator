@@ -159,5 +159,18 @@
     }
   ],
   "taskTraceId": "01a0f4b2-3201-7ba9-93fa-61beab9ccd37",
-  "note": "turbo i2v billed 10 credits/s vs 8 for v3_0_omni t2v without audio"
+  "note": "turbo i2v billed 10 credits/s vs 8 for v3_0_omni t2v without audio",
+  "music": {
+    "model": "eleven_music_v2_5",
+    "duration_secs": 61,
+    "cost_usd": 0.36
+  },
+  "final": {
+    "tool": "ElevenLabs composition",
+    "flow": "https://elevenlabs.io/app/flows/uOTewodszRsa2YSlenNB",
+    "generation": "https://elevenlabs.io/app/image-video/history?modality=video&generationId=a7b24EtEbyz8tovH3aru",
+    "duration_secs": 62.26,
+    "size": "1080x1916",
+    "local_file": "renders/juliane/juliane-final.mp4 (not committed, 87 MB)"
+  }
 }

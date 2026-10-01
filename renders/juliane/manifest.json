@@ -172,5 +172,11 @@
     "duration_secs": 62.26,
     "size": "1080x1916",
     "local_file": "renders/juliane/juliane-final.mp4 (not committed, 87 MB)"
+  },
+  "final_v2": {
+    "picture": "ElevenLabs composition of clean Kling clips (urlWithoutWatermark), generation GK16ClijIuCDx23ze7rb, 60.31 s",
+    "audio": "voz-faraon-take2.mp3 + musica.mp3 (ducked under voice, loudnorm -14 LUFS), mixed locally with ffmpeg",
+    "subtitles": "subs.ass from make_subs.py (timings from silencedetect on the voiceover)",
+    "file": "renders/juliane/juliane-final-v2.mp4 (not committed, 26 MB)"
   }
 }

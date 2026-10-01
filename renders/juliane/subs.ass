@@ -1,0 +1,56 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1916
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,DejaVu Sans,74,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,6,2,2,80,80,520,1
+Style: Title,DejaVu Sans,92,&H0000E1FF,&H0000E1FF,&H00000000,&H64000000,-1,0,0,0,100,100,1,0,1,7,3,8,60,60,230,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.53,Sub,,0,0,0,,{\fad(60,60)}Esta chica cayó de un
+Dialogue: 0,0:00:01.53,0:00:03.65,Sub,,0,0,0,,{\fad(60,60)}avión desde 3.000 metros…
+Dialogue: 0,0:00:03.98,0:00:05.14,Sub,,0,0,0,,{\fad(60,60)}y sobrevivió.
+Dialogue: 0,0:00:05.54,0:00:08.65,Sub,,0,0,0,,{\fad(60,60)}Nochebuena de 1971.
+Dialogue: 0,0:00:08.80,0:00:09.91,Sub,,0,0,0,,{\fad(60,60)}Juliane Koepcke,
+Dialogue: 0,0:00:09.91,0:00:10.46,Sub,,0,0,0,,{\fad(60,60)}17 años,
+Dialogue: 0,0:00:10.46,0:00:12.06,Sub,,0,0,0,,{\fad(60,60)}vuela sobre la selva de
+Dialogue: 0,0:00:12.06,0:00:13.54,Sub,,0,0,0,,{\fad(60,60)}Perú con su mamá.
+Dialogue: 0,0:00:13.69,0:00:17.21,Sub,,0,0,0,,{\fad(60,60)}Una tormenta golpea el avión…
+Dialogue: 0,0:00:17.37,0:00:20.00,Sub,,0,0,0,,{\fad(60,60)}y se parte en el aire.
+Dialogue: 0,0:00:20.15,0:00:21.95,Sub,,0,0,0,,{\fad(60,60)}Ella cae atada a su asiento, girando.
+Dialogue: 0,0:00:21.99,0:00:22.97,Sub,,0,0,0,,{\fad(60,60)}Despierta sola en la selva:
+Dialogue: 0,0:00:22.97,0:00:23.52,Sub,,0,0,0,,{\fad(60,60)}clavícula rota,
+Dialogue: 0,0:00:23.52,0:00:24.33,Sub,,0,0,0,,{\fad(60,60)}un ojo herido…
+Dialogue: 0,0:00:24.55,0:00:25.62,Sub,,0,0,0,,{\fad(60,60)}y sin su mamá.
+Dialogue: 0,0:00:25.93,0:00:27.53,Sub,,0,0,0,,{\fad(60,60)}Entonces recuerda lo que le
+Dialogue: 0,0:00:27.53,0:00:29.25,Sub,,0,0,0,,{\fad(60,60)}enseñó su papá, biólogo:
+Dialogue: 0,0:00:29.36,0:00:30.31,Sub,,0,0,0,,{\fad(60,60)}«Si te pierdes,
+Dialogue: 0,0:00:30.31,0:00:31.49,Sub,,0,0,0,,{\fad(60,60)}sigue el agua.
+Dialogue: 0,0:00:31.54,0:00:33.30,Sub,,0,0,0,,{\fad(60,60)}El agua lleva a la gente.»
+Dialogue: 0,0:00:33.51,0:00:34.72,Sub,,0,0,0,,{\fad(60,60)}Camina río abajo,
+Dialogue: 0,0:00:34.72,0:00:35.64,Sub,,0,0,0,,{\fad(60,60)}días enteros,
+Dialogue: 0,0:00:35.64,0:00:37.79,Sub,,0,0,0,,{\fad(60,60)}comiendo solo unos dulces.
+Dialogue: 0,0:00:37.90,0:00:39.48,Sub,,0,0,0,,{\fad(60,60)}Al noveno día encuentra una
+Dialogue: 0,0:00:39.48,0:00:40.95,Sub,,0,0,0,,{\fad(60,60)}cabaña de madereros.
+Dialogue: 0,0:00:40.98,0:00:42.95,Sub,,0,0,0,,{\fad(60,60)}Tiene la herida llena de larvas;
+Dialogue: 0,0:00:42.96,0:00:45.03,Sub,,0,0,0,,{\fad(60,60)}se echa gasolina para sacarlas…
+Dialogue: 0,0:00:45.15,0:00:46.03,Sub,,0,0,0,,{\fad(60,60)}y espera.
+Dialogue: 0,0:00:46.28,0:00:47.29,Sub,,0,0,0,,{\fad(60,60)}Al día siguiente,
+Dialogue: 0,0:00:47.29,0:00:48.42,Sub,,0,0,0,,{\fad(60,60)}la encuentran.
+Dialogue: 0,0:00:48.45,0:00:49.59,Sub,,0,0,0,,{\fad(60,60)}De 92 personas,
+Dialogue: 0,0:00:49.59,0:00:52.03,Sub,,0,0,0,,{\fad(60,60)}fue la ÚNICA que sobrevivió.
+Dialogue: 0,0:00:52.18,0:00:54.28,Sub,,0,0,0,,{\fad(60,60)}Años después estudió biología…
+Dialogue: 0,0:00:54.27,0:00:55.51,Sub,,0,0,0,,{\fad(60,60)}y volvió a esa misma
+Dialogue: 0,0:00:55.51,0:00:57.17,Sub,,0,0,0,,{\fad(60,60)}selva para protegerla.
+Dialogue: 0,0:00:57.33,0:00:59.35,Sub,,0,0,0,,{\fad(60,60)}A veces sobrevivir es eso…
+Dialogue: 0,0:00:59.53,0:01:00.94,Sub,,0,0,0,,{\fad(60,60)}seguir el agua.
+Dialogue: 1,0:00:00.00,0:00:03.70,Title,,0,0,0,,{\fad(150,150)}CAYÓ 3.000 METROS
+Dialogue: 1,0:00:05.54,0:00:08.80,Title,,0,0,0,,{\fad(150,150)}24 DIC 1971 · PERÚ
+Dialogue: 1,0:00:29.36,0:00:33.20,Title,,0,0,0,,{\fad(150,150)}SIGUE EL AGUA
+Dialogue: 1,0:00:37.90,0:00:40.80,Title,,0,0,0,,{\fad(150,150)}DÍA 9
+Dialogue: 1,0:00:48.45,0:00:51.90,Title,,0,0,0,,{\fad(150,150)}1 DE 92
+Dialogue: 1,0:00:57.33,0:01:02.20,Title,,0,0,0,,{\fad(150,150)}¿TÚ HABRÍAS SOBREVIVIDO?
